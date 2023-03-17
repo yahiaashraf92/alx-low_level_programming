@@ -34,11 +34,11 @@ int main(void)
 							putchar(',');
 							putchar(' ');
 						}
-						putchar('a' + '0');
-						putchar('b' + '0');
+						putchar(a + '0');
+						putchar(b + '0');
 						putchar(' ');
-						putchar('c' + '0');
-						putchar('d' + '0');
+						putchar(c + '0');
+						putchar(d + '0');
 					}
 				}
 			}
