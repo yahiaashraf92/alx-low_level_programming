@@ -29,16 +29,16 @@ int main(void)
 					n2 = d + 10 * c;
 					if (n1 < n2)
 					{
-						if (cnt++)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-						putchar(a + '0');
-						putchar(b + '0');
-						putchar(' ');
-						putchar(c + '0');
-						putchar(d + '0');
+					if (cnt++)
+					{
+					putchar(',');
+					putchar(' ');
+					}
+					putchar(a + '0');
+					putchar(b + '0');
+					putchar(' ');
+					putchar(c + '0');
+					putchar(d + '0');
 					}
 				}
 			}
