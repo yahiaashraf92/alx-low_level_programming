@@ -3,13 +3,11 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - void parameters
  * Description: prints a message that depends on
  * last digit of the random number generated
  * Return: Always void Success
  */
-
-
 void print_alphabet(void)
 {
 	int i;
