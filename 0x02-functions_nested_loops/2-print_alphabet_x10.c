@@ -2,8 +2,9 @@
 #include <time.h>
 #include<stdio.h>
 #include "main.h"
+
 /**
- * print_alphabet_x10() - void parameters
+ * print_alphabet_x10 - void parameters
  * Description: prints a message that depends on
  * last digit of the random number generated
  * Return: Always void Success
