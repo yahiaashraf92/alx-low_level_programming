@@ -21,7 +21,10 @@ void times_table(void)
 			{
 				printf("%d\n",v);
 			}
-			printf("%d, ",v);
+			else
+			{
+				printf("%d, ",v);
+			}
 		}
 	}
 
