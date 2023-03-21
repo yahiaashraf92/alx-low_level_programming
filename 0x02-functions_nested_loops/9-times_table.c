@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <time.h>
+#include<stdio.h>
 #include"main.h"
 /**
  * times_table - prints last digit of a number
