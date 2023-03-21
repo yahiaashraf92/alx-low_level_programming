@@ -7,11 +7,12 @@
  * _islower - void parameters
  * Description: prints a message that depends on
  * last digit of the random number generated
- * Return: Always int Success
+ * @c : check c
+ * Return: int always
  */
 int _islower(int c)
 {
-	if ( c >= 97 && c <= 122 )
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
