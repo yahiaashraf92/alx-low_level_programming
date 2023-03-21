@@ -21,6 +21,10 @@ void times_table(void)
 			{
 				printf("%d\n",v);
 			}
+			if (v > 9)
+			{
+				printf("%d,  ",v);
+			}
 			else
 			{
 				printf("%d, ",v);
