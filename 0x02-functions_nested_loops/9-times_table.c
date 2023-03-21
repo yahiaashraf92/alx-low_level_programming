@@ -21,7 +21,7 @@ void times_table(void)
 			{
 				printf("%d\n",v);
 			}
-			if (v < 10)
+			else if(v < 10)
 			{
 				printf("%d,  ",v);
 			}
