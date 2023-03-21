@@ -6,7 +6,7 @@
  * main - Entry point
  * Description: prints a message that depends on
  * last digit of the random number generated
- * Return: Always 0 Success
+ * Return: Always void Success
  */
 
 
