@@ -2,8 +2,6 @@
 #include <time.h>
 #include<stdio.h>
 #include "main.h"
-/* more headers goes there */
-
 /**
  * main - Entry point
  * Description: prints a message that depends on
