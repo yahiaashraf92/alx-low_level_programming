@@ -3,7 +3,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * print_number - print 
+ * print_number - print
  * return : void
  * @n : num
  */
@@ -23,16 +23,15 @@ void print_number(int n)
 	}
 	if (n > 0)
 	{
-		while(c < n / 10)
+		while (c < n / 10)
 		{
 			c *= 10;
 		}
-		while(c > 0)
+		while (c > 0)
 		{
 			i = (n / c) % 10;
 			_putchar(i + '0');
 			c = c / 10;
 		}
 	}
-	_putchar('\n');
 }
