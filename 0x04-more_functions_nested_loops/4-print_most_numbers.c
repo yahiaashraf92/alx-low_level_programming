@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_numbers - printt
+ * print_most_numbers - printt
  * return : void
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
