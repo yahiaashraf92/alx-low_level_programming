@@ -1,5 +1,5 @@
 /*
- * supper - checks if character is upper alphabet
+ * _issupper - checks if character is upper alphabet
  * Return: 1 if true 0 if false
  * @c: character given to get checked
  */
