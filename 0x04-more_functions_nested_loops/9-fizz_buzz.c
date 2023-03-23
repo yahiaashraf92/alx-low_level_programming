@@ -29,4 +29,17 @@ void fizz_buzz(void)
 			printf("%d ", i);
 		}
 	}
+	printf("\n");
+}
+/**
+ * main - Entry point
+ * Description: prints a message that depends on
+ * last digit of the random numbier generated
+ * Return: Always 0 Success
+ */
+int main(void)
+{
+	fizz_buzz();
+
+	return (0);
 }
