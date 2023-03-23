@@ -18,10 +18,6 @@ void print_number(int n)
 	{
 		_putchar('0');
 	}
-	if (n < 10 && n > 0)
-	{
-		_putchar(i + '0');
-	}
 	if (n < 0)
 	{
 		_putchar('-');
