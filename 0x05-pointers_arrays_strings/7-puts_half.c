@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+/**
+ * puts_half - returns the length of a string
+ * @str: string
+ * Return: the length of the string passed as input
+ */
+void puts_half(char *str)
+{
+	int j, i, k;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{}
+
+	j = i / 2;
+
+	for (k = j; k < i; j++)
+	{
+		_putchar(str[k]);
+	}
+	_putchar('\n');
+
+
+}
