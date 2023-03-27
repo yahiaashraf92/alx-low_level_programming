@@ -1,33 +1,22 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
-#include "main.h"
 /**
- * puts_half - returns the length of a string
- * @str: string
- * Return: the length of the string passed as input
+ * puts_half - updates the value of a pointer to 98
+ * @s: a pointer
+ * Return: void ALWAYS
  */
-void puts_half(char *str)
+void puts_half(char *s)
 {
-	int j, i, k;
+	int i, sz;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{}
+	i = 0;
+	while (s[i] != '\0')
+		i++;
 
-	if (i % 2 == 0)
+	sz = i;
+	for (i = ((sz - 1) / 2) + 1; i < sz; i++)
 	{
-		j = i / 2;
+		putchar(s[i]);
 	}
-	else
-	{
-		j = (i - 1) / 2;
-	}
-
-	for (k = j; k < i; k++)
-	{
-		_putchar(str[k]);
-	}
-	_putchar('\n');
-
-
+	putchar('\n');
 }
