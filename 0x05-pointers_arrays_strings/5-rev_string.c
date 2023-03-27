@@ -14,9 +14,12 @@ void rev_string(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 	{}
 
-	i--;
+	if (i > 0)
+	{
+		i--;
+	}
 
-	temp = (char*)malloc(i * sizeof(char));
+	temp = (char *)malloc(i * sizeof(char));
 
 	strcpy(temp, s);
 
