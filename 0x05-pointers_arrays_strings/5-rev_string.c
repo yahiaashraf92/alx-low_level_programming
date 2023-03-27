@@ -15,7 +15,7 @@ void rev_string(char *s)
 
 	i--;
 
-	char temp = (*char)malloc(i * sizeof(char));
+	char temp[i];
 
 	strcpy(temp, s);
 
