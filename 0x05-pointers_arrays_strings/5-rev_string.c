@@ -5,8 +5,8 @@
  * @s: string
  * Return: the length of the string passed as input
  */
-void rev_string(char s*)
-{ 
+void rev_string(char *s)
+{
 	int j, i;
 
 	for (i = 0; s[i] != '\0'; i++)
