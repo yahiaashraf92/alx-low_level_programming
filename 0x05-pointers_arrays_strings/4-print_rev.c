@@ -4,7 +4,7 @@
  * @s: string
  * Return: the length of the string passed as input
  */
-int print_rev(char *s)
+void print_rev(char *s)
 {
 	int i, j;
 
@@ -16,7 +16,4 @@ int print_rev(char *s)
 		_putchar(s[j]);
 	}
 	_putchar('\n');
-
-
-	return (i);
 }
