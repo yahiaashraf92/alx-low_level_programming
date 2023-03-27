@@ -15,7 +15,9 @@ void rev_string(char *s)
 
 	i--;
 
-	char temp[i];
+	char *temp;
+
+	temp[i];
 
 	strcpy(temp, s);
 
