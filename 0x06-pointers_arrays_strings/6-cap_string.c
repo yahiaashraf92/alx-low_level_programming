@@ -3,12 +3,12 @@
 #include <ctype.h>
 #include <stdlib.h>
 /**
- * string_toupper - returns the length of a string
+ * cap_string - returns the length of a string
  * @s: char array
- * Return: void
+ * Return: char
  */
 
-char *string_toupper(char *s)
+char *cap_string(char *s)
 {
 	int i;
 
@@ -16,8 +16,9 @@ char *string_toupper(char *s)
 
 	while (s[i] != '\0')
 	{
-		if (str[i] > 96 && str[i] < 123)
-			str[i] -= 32;
+		if (i == 0 || s[i - 1] == ' ' || s[i - 1] == '.')
+			s[i] = toupper(s[i]);
+		i++;
 	}
 
 	return (s);
