@@ -16,8 +16,8 @@ char *string_toupper(char *s)
 
 	while (s[i] != '\0')
 	{
-		s[i] = toupper(s[i]);
-		i++;
+		if (str[i] > 96 && str[i] < 123)
+			str[i] -= 32;
 	}
 
 	return (s);
