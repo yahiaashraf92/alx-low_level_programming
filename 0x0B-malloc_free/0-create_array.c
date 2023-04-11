@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 		buffer[i] = c;
 	}
 
-	if (size == 0)
+	if (size == 0 || buffer == NULL)
 	{
 		return (NULL);
 	}
