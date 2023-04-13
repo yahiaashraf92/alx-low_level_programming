@@ -11,6 +11,7 @@
 int *array_range(int min, int max)
 {
 	int i,j,size;
+	int *ptr;
 
 	if (min > max)
 	{
@@ -18,7 +19,7 @@ int *array_range(int min, int max)
 	}
 
 	size = max - min + 1;
-	int *ptr = (int *)malloc(size * sizeof(int));
+	ptr = (int *)malloc(size * sizeof(int));
 
 	if (ptr == NULL)
 	{
@@ -28,9 +29,7 @@ int *array_range(int min, int max)
 	i = min,j = 0;
 	while (i <= max)
 	{
-		ptr[j] = i;
-		i++;
-		j++;
+		ptr[j++] = i++;
 	}
 
 	return (ptr);
