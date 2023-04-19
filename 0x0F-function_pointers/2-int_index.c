@@ -3,24 +3,21 @@
 #include <stdio.h>
 
 /**
- * int_index - executes a function given on each element on an array
- * @array: array to execute the function on each element of
- * @size: size of the array
- * @cmp: function to execute on each element of the array
- * Return: void ALWAYS
+ * int_index -searches for an integer
+ * @array: array to search in
+ * @size: size of array
+ * @cmp: compartor to search with
+ * Return: -1 if no element matches or size < 1
  */
 
-int int_index(int *array, size_t size, int (*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i = 0;
+	int i;
 
-	if (!array || size == 0 || !cmp)
+	if (size < 1 || !array || !cmp)
 		return (-1);
-
 	for (i = 0; i < size; i++)
-	{
-		if (cmp(array[i])
+		if (cmp(array[i]) > 0)
 			return (i);
-	}
 	return (-1);
 }
