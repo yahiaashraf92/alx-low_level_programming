@@ -10,12 +10,12 @@
  * Return: void ALWAYS
  */
 
-void int_index(int *array, size_t size, int (*cmp)(int))
+int int_index(int *array, size_t size, int (*cmp)(int))
 {
-	size_t i = 0;
+	int i = 0;
 
 	if (!array || size == 0 || !cmp)
-		return;
+		return (-1);
 
 	for (i = 0; i < size; i++)
 	{
